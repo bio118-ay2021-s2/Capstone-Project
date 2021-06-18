@@ -1,0 +1,17 @@
+---
+title: "How do we determine the resistance to azithromycin"
+author: "Rheanne Santos and Farrah Carrao"
+date: "6/18/2021"
+output: html_document
+---
+
+```{r}
+
+getwd()
+setwd("C:.//Data")
+
+data <- read.csv("metadata.csv")
+print(data)
+
+```
+
